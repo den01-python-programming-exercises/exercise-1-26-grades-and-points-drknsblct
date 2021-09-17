@@ -3,21 +3,21 @@ def main():
     num = int(input('Give points [0-100]:'))
     
     if num < 0:
-        print('impossible')
+        print('Grade: impossible')
     elif num <= 49:
-        print('failed')
+        print('Grade: failed')
     elif num <= 59:
-        print('1')
+        print('Grade: 1')
     elif num <= 69:
-        print('2')
+        print('Grade: 2')
     elif num <= 79:
-        print('3')
+        print('Grade: 3')
     elif num <= 89:
-        print('4')
+        print('Grade: 4')
     elif num <= 100:
-        print('5')
+        print('Grade: 5')
     else:
-        print('incredible!')
+        print('Grade: incredible!')
 
 if __name__ == '__main__':
     main()
