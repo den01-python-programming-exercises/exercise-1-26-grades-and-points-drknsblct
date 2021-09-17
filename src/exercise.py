@@ -3,7 +3,7 @@ def main():
     num = int(input('Give points [0-100]:'))
     
     if num < 0:
-        print('Grade: impossible')
+        print('Grade: impossible!')
     elif num <= 49:
         print('Grade: failed')
     elif num <= 59:
